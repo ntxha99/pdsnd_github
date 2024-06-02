@@ -35,7 +35,7 @@ def get_filters():
         print('Invalid inputs. Please try again.\n')
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    while 2:
+    while 3:
         day = input('Which day in a week are you interested in?\n').lower()
         if day in ['all','monday','tuesday','wednesday','thursday','friday','saturday','sunday']:
             break
